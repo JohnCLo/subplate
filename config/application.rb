@@ -29,6 +29,9 @@ module Subplate
       g.helper_specs false
     end
 
+    # Heroku requires this to be false
+    config.assets.initialize_on_precompile=false
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
@@ -78,5 +81,6 @@ module Subplate
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
   end
 end
