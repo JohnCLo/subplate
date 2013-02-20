@@ -1,5 +1,7 @@
-<%= link_to "Rails Stripe Membership Saas", root_path, :class => 'brand' %>
 <ul class="nav">
+  <li><a href="http://www.thecrimson.com"><i class="icon-hand-left"></i> TheCrimson</a></li>
+  <li><%= link_to "Home", root_path, :class => 'a' %></li>
+  <li><a href="#">Services</a></li>
   <% if user_signed_in? %>
     <li>
     <%= link_to 'Logout', destroy_user_session_path, :method=>'delete' %>        

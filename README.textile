@@ -1,22 +1,7 @@
-h1. Subplate
+h1. Subscription Platform 
 
-This application was generated with the "rails_apps_composer":https://github.com/RailsApps/rails_apps_composer gem provided by the "RailsApps Project":http://railsapps.github.com/.
+Special thanks to the "RailsApps Project" for providing tutorials on linking to setting up a rails environment, linking the application to Heroku and providing necessary gems for this project.
 
-h2. Diagnostics
-
-This application was built with recipes that are known to work together.
-
-This application was built with preferences that are known to work together.
-
-If the application doesn't work as expected, please "report an issue":https://github.com/RailsApps/rails_apps_composer/issues and include these diagnostics:
-
-We'd also like to know if you've found combinations of recipes or preferences that do work together.
-
-Recipes:
-["controllers", "core", "email", "extras", "frontend", "gems", "git", "init", "models", "prelaunch", "railsapps", "readme", "routes", "saas", "setup", "testing", "views"]
-
-Preferences:
-{:git=>true, :railsapps=>"rails-stripe-membership-saas", :database=>"sqlite", :unit_test=>"rspec", :integration=>"cucumber", :fixtures=>"factory_girl", :frontend=>"bootstrap", :bootstrap=>"sass", :email=>"gmail", :authentication=>"devise", :devise_modules=>"default", :authorization=>"cancan", :starter_app=>"admin_app", :form_builder=>"simple_form", :quiet_assets=>true, :local_env_file=>true, :better_errors=>true, :dev_webserver=>"thin", :prod_webserver=>"thin", :templates=>"erb", :rvmrc=>true, :github=>true}
 
 h2. Ruby on Rails
 
@@ -24,8 +9,6 @@ This application requires:
 
 * Ruby version 1.9.3
 * Rails version 3.2.12
-
-Learn more about "Installing Rails":http://railsapps.github.com/installing-rails.html.
 
 h2. Database
 
@@ -44,37 +27,3 @@ h2. Email
 
 The application is configured to send email using a Gmail account.
 
-h2. Getting Started
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-h2. Documentation and Support
-
-This is the only documentation.
-
-h4. Issues
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-h2. Similar Projects
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-h2. Contributing
-
-If you make improvements to this application, please share with others.
-
-* Fork the project on GitHub.
-* Make your feature addition or bug fix.
-* Commit with Git.
-* Send the author a pull request.
-
-If you add functionality to this application, create an alternative implementation, or build an application that is similar, please contact me and I'll add a note to the README so that others can find your work.
-
-h2. Credits
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-h2. License
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
